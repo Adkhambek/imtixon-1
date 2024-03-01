@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O'tilgan mavzularni qaytarish</title>
+  </head>
+  <body>
+    <header>
+      <h1>O'tilgan mavzularni qaytarish</h1>
+      <p>
+        Darsda juda ko'p mavzularni korib chiqdik. Asosiy o'tgan mavzularimiz:
+        <i>internet va sayt qaday ishlashi</i>, VSCode dan foydalanish,
+        Git/GitHub va
+        <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+        saytidan HTML boyicha mashqlar bajarish bo'ldi
+      </p>
+    </header>
+    <main>
+      <section id="lesson-list">
+        <h2>O'tligan mavzular:</h2>
+        <ul>
+          <li>Browser</li>
+          <li>Internet qanday ishlashi</li>
+          <li>Sayt qanday ishlashi</li>
+          <li>Git/GitHub</li>
+          <li>HTML</li>
+        </ul>
+      </section>
+      <section id="browser">
+        <h2>Browser haqida</h2>
+        <p>
+          <b>Browser bu</b> - saytlarga kirish imkoniyatini beruvchi dastur.
+        </p>
+        <h3>Browserga misollar:</h3>
+        <ol>
+          <li>Google Chrome</li>
+          <li>Firefox</li>
+          <li>Safari</li>
+          <li>Opera</li>
+        </ol>
+      </section>
+      <section id="images">
+        <h2>Rasmlar orqali o'rganamiz</h2>
+        <figure>
+          <img src="./internet.png" alt="Internet ishlashi" />
+          <figcaption>Internet ishlashi</figcaption>
+        </figure>
+        <figure>
+          <img src="./website.png" alt="Website qanday ishlashi" />
+          <figcaption>Website qanday ishlashi</figcaption>
+        </figure>
+        <figure>
+          <img src="./git-github.png" alt="Git va Github" />
+          <figcaption>Git va Github</figcaption>
+        </figure>
+      </section>
+      <section id="form">
+        <h2>Yangi o'quvchini ro'yxatga olish</h2>
+        <form action="https://www.w3schools.com/tags/action_page.php">
+          <input type="text" name="firstname" placeholder="ismingiz" required />
+          <input
+            type="text"
+            name="lastname"
+            placeholder="familyangiz"
+            required
+          />
+          <fieldset>
+            <legend>Jinsingiz:</legend>
+            <input type="radio" id="male" value="male" name="gender" />
+            <label for="male">Erkak</label>
+            <input
+              type="radio"
+              id="female"
+              value="female"
+              name="gender"
+              checked
+            />
+            <label for="female">Ayol</label>
+          </fieldset>
+          <fieldset>
+            <legend>Nimalarni bilasiz</legend>
+            <input
+              type="checkbox"
+              id="english"
+              value="english"
+              name="subjects"
+            />
+            <label for="english">Ingliz tili</label>
+            <input type="checkbox" id="math" value="math" name="subjects" />
+            <label for="math">Matematika</label>
+            <input
+              type="checkbox"
+              id="programming"
+              value="programming"
+              name="subjects"
+              checked
+            />
+            <label for="programming">Dasturlash</label>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
